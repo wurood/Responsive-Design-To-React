@@ -1,0 +1,10 @@
+.current-page {
+    text-decoration: 3px underline;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+

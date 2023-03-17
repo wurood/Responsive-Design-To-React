@@ -1,0 +1,36 @@
+.article-recent {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.article-recent {
+    display: flex;
+    align-items: center;
+}
+
+.article-recent>* {
+    margin: 0 1rem;
+}
+
+.article-recent .article-img {
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px rgba(181, 181, 181, 0.593);
+}
+
+.article-recent .body {
+    width: 70%;
+    min-height: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #d1d1d1;
+}
+
+.article-recent .image {
+    /* width: 25%; */
+}
+
+.article-read-more {
+    font-weight: bold;
+    text-decoration: none;
+}

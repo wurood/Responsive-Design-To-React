@@ -1,0 +1,33 @@
+
+.sidebar-widget {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+    border: 20px solid #efefef;
+}
+
+.sidebar-widget>* {
+    margin: 0.8rem;
+    width: 80%;
+}
+
+.sidebar-widget img {
+    border-radius: 2px;
+}
+
+.widget-recent {
+    border-bottom: #707070 1px solid;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 0.1rem;
+
+}
+
+.widget-recent>* {
+    margin: 0.5rem 0;
+}

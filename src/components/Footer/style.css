@@ -1,0 +1,19 @@
+
+    footer {
+        width: 100%;
+        height: 8rem;
+        background-color: #143774;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4em;
+    }
+
+    .no-border {
+        border: 0px;
+    }
+
+    strong {
+        font-weight: bold;
+    }

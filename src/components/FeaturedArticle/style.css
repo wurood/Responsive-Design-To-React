@@ -1,0 +1,22 @@
+
+.article-featured {
+    border-bottom: #707070 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.article-featured .article-img {
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px rgba(181, 181, 181, 0.593);
+    object-fit: cover;
+}
+
+.article-featured>* {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-top: 1rem;
+}
