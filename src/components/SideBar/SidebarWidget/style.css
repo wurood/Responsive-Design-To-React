@@ -31,3 +31,19 @@
 .widget-recent>* {
     margin: 0.5rem 0;
 }
+
+
+@media only screen and (max-width: 675px) {
+    .sidebar-widget {
+        width: 100%;
+    }
+    .sidebar-widget img, 
+    .widget-recent img {
+    
+        height: 8em;
+        object-fit: cover;
+    }
+    .widget-recent img {
+        width: 100%;
+    }
+}

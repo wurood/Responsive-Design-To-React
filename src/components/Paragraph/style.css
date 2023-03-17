@@ -1,5 +1,4 @@
 .subtitle {
-    position: absolute;
     font-weight: bold;
     color: #1792d2;
     font-size: 1rem;
@@ -8,4 +7,11 @@
 p {
     font-size: 1rem;
     color: #27467b;
+}
+
+@media only screen and (max-width: 675px) {
+    p {
+        color: #707070;
+        font-size: 0.8rem;
+    }
 }

@@ -8,3 +8,8 @@ ul {
     justify-content: center;
 }
 
+@media only screen and (max-width: 675px) {
+     ul {
+        flex-direction: column;
+    }
+}

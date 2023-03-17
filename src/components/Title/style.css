@@ -9,3 +9,13 @@ h1,h2 {
 h1 {
     font-size: 2rem;
 }
+
+
+@media only screen and (max-width: 675px) {
+    h1,
+    h2,
+    h3 {
+        font-size: 1rem;
+
+    }
+}
